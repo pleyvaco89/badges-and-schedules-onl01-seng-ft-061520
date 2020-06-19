@@ -4,6 +4,6 @@ end
 
 def batch_badge_creator(names)
   badge_messages = Array.new
-  names.each {|name|puts "#{name}."}
+  names.each{|name|puts "#{name}."}
   end
 end
